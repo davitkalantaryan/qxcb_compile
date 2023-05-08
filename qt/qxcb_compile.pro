@@ -9,6 +9,8 @@ QXCB_SOURCE_DIR = $${QT_BASE_SRC_DIR}/plugins/platforms/xcb
 
 TEMPLATE = lib
 
+INCLUDEPATH += $${PWD}/../include
+INCLUDEPATH += /home/kalantar/dev/mesa/include
 INCLUDEPATH += $${QT_BASE_DIR}/include/QtGui/6.5.0/QtGui
 INCLUDEPATH += $${QT_BASE_DIR}/include/QtGui/6.5.0
 INCLUDEPATH += $${QT_BASE_DIR}/include/QtCore/6.5.0
